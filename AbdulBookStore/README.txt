@@ -16,3 +16,4 @@ i have moved the model folder and also add the models  and renamed it to viewMod
 namespace AbdulBookStore.Models changed to namespace AbdulBookStore.Models.viewmodels
 i have add using AbdulBookStore.DataAccess.Data; to startup and delet the data one 
 i ran the program and it works very well
+create a new class in Uitity called SD.CS 
