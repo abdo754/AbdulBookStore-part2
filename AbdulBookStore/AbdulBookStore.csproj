@@ -22,4 +22,9 @@
     <ProjectReference Include="..\AbdulBooks.Utility\AbdulBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
