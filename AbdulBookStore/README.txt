@@ -9,3 +9,4 @@ there was probrlm it was hte bootwatch does not want to work but i forgot to cha
 i haved add the link that you have proved for the link in layout (css/scrpiti)
 i have create a dropdown list in layout 
 i have add new project called AbdulBooks.DataAccess,AbdulBooks.Models,and AbdulBooks.Utility and also moved the data file to DATAACCESS
+i have downlaod the Core.Sqlserverand also the relatinal pages and than deltet the migrations folder 
