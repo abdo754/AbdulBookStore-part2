@@ -22,8 +22,4 @@
     <ProjectReference Include="..\AbdulBooks.Utility\AbdulBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Customer\Views\" />
-  </ItemGroup>
-
 </Project>
