@@ -13,3 +13,4 @@ i have downlaod the Core.Sqlserverand also the relatinal pages and than deltet t
 i have add all the Nutget Package
 i have deleted all of the class 1 files 
 i have moved the model folder and also add the models  and renamed it to viewModel
+namespace AbdulBookStore.Models changed to namespace AbdulBookStore.Models.viewmodels
