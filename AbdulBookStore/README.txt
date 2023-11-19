@@ -19,4 +19,6 @@ i ran the program and it works very well
 create a new class in Uitity called SD.CS 
 ADDED THE PROJECT REFFENCE TO ABDULBOOTSTORE 
 i have changed the route of the pattern ot {area=customer}
-move the homecontorller to cuosmter and deteled data and models folder 
+move the homecontorller to cuosmter and deteled data and models folder
+
+changed the namespace in homecontoller to namespace AbdulBookStore.Area.Customer.Controllers and add [Area("Customer")]
