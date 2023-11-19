@@ -56,14 +56,13 @@ namespace AbdulBookStore
 
             app.UseRouting();
 
-            app.UseAuthentication();
-            app.UseAuthorization();
+            app.UseAuthentication(); 
+            app.UseAuthorization(); 
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{area:Customer}/{controller=Home}/{action=Index}/{id?}");
+            app.UseEndpoints(endpoints => 
+            { endpoints.MapControllerRoute(
+                name: "default",
+                pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

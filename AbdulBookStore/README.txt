@@ -22,3 +22,4 @@ i have changed the route of the pattern ot {area=customer}
 move the homecontorller to cuosmter and deteled data and models folder
 
 changed the namespace in homecontoller to namespace AbdulBookStore.Area.Customer.Controllers and add [Area("Customer")]
+i have add the home folder to view and put in viewimport,viewstart
