@@ -43,3 +43,4 @@ i used the file that you have proved for us to use which i have done
 i have made connection to category and icatogroy 
 there is red line under ICategoryRepository in cateogryReposirty 
 i fix the problem which was a spelling mistake of catefory 
+i have add a ISP_CALL.CS in IRespoirty  for interface and also download DAPPER Nutpage
