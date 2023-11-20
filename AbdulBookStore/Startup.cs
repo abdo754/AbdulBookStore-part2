@@ -1,3 +1,5 @@
+using AbdulBooks.DataAccess.Repository.IRepository;
+using AbdulBooks.DataAccess.Repository;
 using AbdulBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

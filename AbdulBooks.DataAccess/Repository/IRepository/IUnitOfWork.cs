@@ -4,9 +4,9 @@ using System.Text;
 
 namespace AbdulBooks.DataAccess.Repository.IRepository
 {
-    interface IUnitOfWork: IDisposable
+  public  interface IUnitOfWork: IDisposable
     {
-        ICategoryRepository category { get; }
+        ICategoryRepository Category { get; }
         ISP_Call SP_Call { get; }
     }
 }

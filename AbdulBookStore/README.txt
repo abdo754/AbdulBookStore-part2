@@ -58,3 +58,7 @@ update in UnitOfWork
         {
             _db.SaveChanges();
         }"
+
+   
+   there was a problem my Category does not work beucase it does not say on uniofWork
+   
