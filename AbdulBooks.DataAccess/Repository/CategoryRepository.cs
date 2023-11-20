@@ -3,6 +3,7 @@ using AbdulBooks.Models;
 using AbdulBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace AbdulBooks.DataAccess.Repository
@@ -14,9 +15,14 @@ namespace AbdulBooks.DataAccess.Repository
         {
             _db = db;
         }
-        public void Update(Category category)
+        public void update(Category category)
         {
-            throw new NotImplementedException();
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
+            if (objFromDb != null)
+            {
+                objFromDb.Name = category.Name;
+                _db.SaveChanges();
+            }
         }
     }
 }
