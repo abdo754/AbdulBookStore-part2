@@ -30,3 +30,4 @@ i add viewimports and viewstart in the admin view folder and also removed the ho
 11/20/2023
 i removed some code in asppsettings 
 i have add this 20231120162542_addDefaultIdentityMigration to migrationd folder 
+i have add new .cs in Models and add a new table 
