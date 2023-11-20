@@ -25,4 +25,7 @@ changed the namespace in homecontoller to namespace AbdulBookStore.Area.Customer
 i have add the home folder to view and put in viewimport,viewstart
 there is probelm is said there was  a mistake in viewstart
 mispelled the view should havve benn views 
-i add viewimports and viewstart in the admin view folder and also removed the homecontoler from controller 
+i add viewimports and viewstart in the admin view folder and also removed the homecontoler from controller
+
+11/20/2023
+i removed some code in asppsettings 
