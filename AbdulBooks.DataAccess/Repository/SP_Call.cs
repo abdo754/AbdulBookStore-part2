@@ -1,0 +1,51 @@
+﻿using AbdulBooks.DataAccess.Repository.IRepository;
+using AbdulBookStore.DataAccess.Data;
+using Dapper;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace AbdulBooks.DataAccess.Repository
+{
+    public class SP_Call : ISP_Call
+    {
+        private readonly ApplicationDbContext _db;
+        private static string ConnectionString = "";
+
+        public SP_Call(ApplicationDbContext db)
+        {
+            _db = db;
+            ConnectionString = db.Database.GetDbConnection().ConnectionString;
+        }
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Execute(string procedurname, DynamicParameters param = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<T> List<T>(string procedurname, DynamicParameters param = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurname, DynamicParameters param = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public T OneRecord<T>(string procedurname, DynamicParameters param = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public T Single<T>(string procedurname, DynamicParameters param = null)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
