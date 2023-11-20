@@ -40,3 +40,5 @@ add class in respoity for intface class
 in that class i add remove and add from Get item in Db 
 i add new class in Repository and coded to create constructors and dependency 
 i used the file that you have proved for us to use which i have done 
+i have made connection to category and icatogroy 
+there is red line under ICategoryRepository in cateogryReposirty 
