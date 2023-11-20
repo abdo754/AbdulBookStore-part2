@@ -61,4 +61,5 @@ update in UnitOfWork
 
    
    there was a problem my Category does not work beucase it does not say on uniofWork
+   find the problem in Unofwork Category was with small c and now is fix 
    
