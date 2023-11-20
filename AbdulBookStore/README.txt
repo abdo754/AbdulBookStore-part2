@@ -31,3 +31,5 @@ i add viewimports and viewstart in the admin view folder and also removed the ho
 i removed some code in asppsettings 
 i have add this 20231120162542_addDefaultIdentityMigration to migrationd folder 
 i have add new .cs in Models and add a new table 
+there was a problem which was the add-migration AddCategoryToDb does not work
+i forgot to switch the the defualt project to dataAccess
