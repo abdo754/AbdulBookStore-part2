@@ -37,3 +37,4 @@ i code this "public DbSet<Category>Categories { get; set; }" in the applicationD
 i have deleted  addCategory and add a new one category 
 add new folder called reposity and Ireposity 
 add class in respoity for intface class 
+in that class i add remove and add from Get item in Db 
