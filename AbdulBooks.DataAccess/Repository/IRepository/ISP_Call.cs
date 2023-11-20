@@ -13,5 +13,5 @@ namespace AbdulBooks.DataAccess.Repository.IRepository
         T OneRecord<T>(string procedurname, DynamicParameters param = null);
         IEnumerable<T> List<T>(string procedurname, DynamicParameters param = null);
         Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurname, DynamicParameters param = null);
-            }
+    }
 }

@@ -8,8 +8,7 @@ namespace AbdulBooks.DataAccess.Repository
 {
     public class UnitOfWork
     {
-        private readonly ApplicationDbContext _db; 
-
+        private readonly ApplicationDbContext _db;
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
@@ -24,7 +23,8 @@ namespace AbdulBooks.DataAccess.Repository
         {
             _db.Dispose();
         }
-         public void save()
+
+        public void Save()
         {
             _db.SaveChanges();
         }
