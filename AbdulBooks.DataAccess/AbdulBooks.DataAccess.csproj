@@ -15,4 +15,9 @@
     <ProjectReference Include="..\AbdulBooks.Utility\AbdulBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+	  <Folder Include="Data"/>
+    <Folder Include="Repository\IRepository\" />
+  </ItemGroup>
+
 </Project>
