@@ -49,3 +49,12 @@ i have edited SP_Call for it work
 add a interface in IRepository  and also update the code 
 added the IUnitOfWork interface to IRepository
 added the  UnitOfWork class in Repository 
+update in UnitOfWork
+ "public void Dispose()
+        {
+            _db.Dispose();
+        }
+         public void save()
+        {
+            _db.SaveChanges();
+        }"
