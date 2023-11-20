@@ -44,4 +44,5 @@ i have made connection to category and icatogroy
 there is red line under ICategoryRepository in cateogryReposirty 
 i fix the problem which was a spelling mistake of catefory 
 i have add a ISP_CALL.CS in IRespoirty  for interface and also download DAPPER Nutpage
-add new class called SP_Call in Repository and i have connectioned to teh database  with this class 
+add new class called SP_Call in Repository and i have connectioned to the database  with this class 
+i have edited SP_Call for it work 
