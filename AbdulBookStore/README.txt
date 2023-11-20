@@ -39,3 +39,4 @@ add new folder called reposity and Ireposity
 add class in respoity for intface class 
 in that class i add remove and add from Get item in Db 
 i add new class in Repository and coded to create constructors and dependency 
+i used the file that you have proved for us to use which i have done 
