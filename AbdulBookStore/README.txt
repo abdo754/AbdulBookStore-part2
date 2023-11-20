@@ -35,3 +35,5 @@ there was a problem which was the add-migration AddCategoryToDb does not work
 i forgot to switch the the defualt project to dataAccess
 i code this "public DbSet<Category>Categories { get; set; }" in the applicationDbContext.cs
 i have deleted  addCategory and add a new one category 
+add new folder called reposity and Ireposity 
+add class in respoity for intface class 
